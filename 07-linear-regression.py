@@ -14,3 +14,9 @@ mymodel = list(map(myfunc, x))
 plt.scatter(x, y)
 plt.plot(x, mymodel)
 plt.show()
+
+### PREDICT FUTURE VALUES
+
+speed = myfunc(10)
+
+print(speed)
