@@ -16,3 +16,7 @@ plt.show()
 
 ### Is it a good fit? r=1 means yes. r=0 means no.
 print(r2_score(y, mymodel(x)))
+
+### Predict future values
+speed = mymodel(17)
+print(speed)
